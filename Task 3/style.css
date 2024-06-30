@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    display:flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, red,blue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav
+{
+    display: block;
+    text-align: start;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 50%;
+    position: absolute;
+}
+nav img
+{
+    
+    width: 10%;
+}
+#Name
+{
+    width:50%;
+}
+h1
+{
+    margin-bottom: 10px;
+}
+#box
+{
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+    border-radius: 10px;
+    border-color: linear-gradient(red,blue);
+    border-style: solid;
+    padding: 15px;   
+}
+#ConvertBtn
+{
+    width:35%;
+    height: 35%;
+    border-radius: 15px;
+    background-color:red ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#ConvertBtn:hover
+{
+    transform: scale(1.2);
+    background-color:blue ;
+}
+.radio
+{
+    display:list-item;
+
+}
+
+label
+{
+    display: flex;
+    justify-content: center;
+}
+#number
+{
+    text-align: center;
+    border-radius: 15px;
+}
+p
+{
+    cursor: pointer;
+}

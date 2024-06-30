@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.linkedin.com/in/tinotenda-mhedziso/" target="_blank">
+            <img src="Images/LinkedIn.png" alt="This is my LinkedIn profile">
+             </a>
+             <a href="https://www.github.com/PassionOverPain" target="_blank">
+                <img src="Images/Github.png" alt="This is my Github profile">
+                 </a>
+                 <a href="mailto:tinomhedziso21@gmail.com">
+                    <img src="Images/Email.png" alt="This is my Email Address">
+                     </a>
+                     <img id="Name" src="Images/Name.png" alt="This is Name">
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div id="box">
+            <h1>
+               <u>Temperature Converter🌡</u>
+            </h1>
+    <div>
+            <label for="number">Enter a Temperature:</label>
+             <input type="number" id="number" max="1000" min="-1000">
+    </div>
+        <div>
+             <label >Choose a Conversion:</label>
+         </div>
+                <div class="radio">
+                  <input type="radio" name="radios" id="CF" class="radio">
+                  <label for="CF">Celsius to Faherienthiet:</label>
+                 <input type="radio" name="radios"id="CK" class="radio">
+                  <label for="CK">Celsius to Kelvin:</label>
+                  <input type="radio" name="radios"id="FC" class="radio">
+                  <label for="FC">Fahrenheit to Celsius:</label>
+                  <input type="radio" name="radios"id="FK" class="radio">
+                  <label for="FK">Fahrenheit to Kelvin:</label>
+                  <input type="radio" name="radios"id="KC" class="radio">
+                  <label for="KC">Kelvin to Celsius:</label>
+                  <input type="radio" name="radios"id="KF" class="radio">
+                  <label for="KF"> Kelvin to Fahrenheit :</label>
+                </div>
+            <button id="ConvertBtn" onclick="convert()">
+                Convert
+            </button>
+            <br>
+            <div>
+                <label  id="lblresult">The Result shall appear here😄:</label>
+                <br>
+             <p onclick="cutNum()">
+                Please Note: The values displayed here have been rounded down
+                for a simplistic view, if you would like to view the precise value
+                click this text.⏪
+             </p>
+        </div>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
