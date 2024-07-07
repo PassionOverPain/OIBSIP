@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, purple,rgb(170, 40, 62));
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#Calculator
+{
+    border: solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, purple,rgb(170, 40, 62));
+    max-width: 300px;
+    overflow: hidden;
+}
+#screen
+{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(180, 4, 180);
+    color:black;
+}
+#buttons
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding: 20px;
+}
+button
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border-color: violet;
+    background-image: linear-gradient(to left, rgb(218, 21, 54),purple);
+    color: white;
+    font-size: 3rem;
+    font-weight:lighter;
+    cursor: pointer;
+}
+button:hover
+{
+    transform: scale(1.2);
+    background-image: linear-gradient(to left, rgb(87, 11, 24),purple);
+}
+button:active
+{
+    background-image: linear-gradient(to left, red,rgb(233, 94, 94));
+}
+.operator
+{
+    background-color: purple;
+}
