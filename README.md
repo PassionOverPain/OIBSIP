@@ -20,3 +20,4 @@ Feel free to review and clone as you wish.<br>
 <b>The only thing that is resctricted is Task 2: My porfolio website. Please see this [Repo](https://github.com/PassionOverPain/Tinotenda-Mhedziso/blob/main/README.md) for further ellaboration..</b> <br>
 I am  also <b>open to collaborate</b> on your own personal portfolio, let me know through [LinkedIn](https://www.linkedin.com/in/tinotenda-mhedziso/) or leave a GitHub issue.
 
+<b><i>Concluded in July 2024</i></b>
